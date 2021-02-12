@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="no-cache, no-store, must-revalidate">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#252525">
+    <link rel="icon" href="img/ico.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Темная тема | Танки Онлайн</title>
+</head>
+<body>
+
+<!-- Шапка -->
+<header>
+    <div class="wrapper">
+        <div class="main">
+            <a class="nav_text" href="#2">Примеры <i class="fas fa-bookmark menu-icons"></i></a>
+            <a class="nav_text" href="#3">Видеообзор <i class="fas fa-search menu-icons"></i></a>
+            <a class="nav_text" href="#4">Инструкция <i class="fas fa-wrench menu-icons"></i></a>
+        </div>
+        <div class="download">
+            <h1 class="download-title">Темная тема</h1>
+            <button type="button" class="btn">
+                <a href="https://github.com/tankidarktheme/Dark-Theme" target="_blank" style="color: #4678ff;">Установить</a>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<!-- Слайдер -->
+<div class="dark_theme" id="2">
+    <div class="wrapper">
+        <div class="text">
+            <h1>Примеры</h1>
+        </div>
+        <div class="slider-container">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+                <label for="slide-dot-4"></label>
+            </div>
+            <input id="slide-dot-1" type="radio" name="slides" checked>
+            <div class="slide slide-1"></div>
+            <input id="slide-dot-2" type="radio" name="slides">
+            <div class="slide slide-2"></div>
+            <input id="slide-dot-3" type="radio" name="slides">
+            <div class="slide slide-3"></div>
+            <input id="slide-dot-4" type="radio" name="slides">
+            <div class="slide slide-4"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Видео на ютуб -->
+<div class="info" id="3">
+    <div class="wrapper">
+        <div class="text">
+            <h1>Видеообзор</h1>
+            <iframe class="video" width="900" height="600" src="https://www.youtube.com/embed/mrIhv09lgi8?controls=0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
+
+<!-- Инструкция -->
+<div class="instruction" id="4">
+    <div class="wrapper">
+        <div class="text">
+            <h1 class="test">Установка</h1>
+        </div>
+        <div class="instruction-block">
+            <div class="browser">
+                <div class="browser-text">
+                    <h1 class="browser-title">Браузер <i class="fab fa-chrome menu-icons"></i></h1>
+                    <p class="browser-subtitle" id="br-1">1. Загрузите архив и распакуйте его в отдельную папку</p>
+                    <p class="browser-subtitle">2. Перейдите в настройки расширений браузера</p>
+                    <p class="browser-subtitle">3. Активируйте режим разработчика</p>
+                    <p class="browser-subtitle">4. Загрузите распакованное расширение, указав путь к папке</p>
+                    <p class="browser-subtitle">5. Наслаждайтесь новым дизайном в браузере!</p>
+                </div>
+                <img class="gif" src="img/browser.gif" alt="gif">
+            </div>
+            <div class="border"></div>
+            <div class="client">
+                <div class="client-text">
+                    <h1 class="client-title">Клиент <i class="fas fa-gamepad menu-icons"></i></h1>
+                    <p class="client-subtitle" id="cl-1">1. Загрузите архив и распакуйте его в отдельную папку</p>
+                    <p class="client-subtitle">2. Нажмите сочетание Win+R и вставьте в открывшееся окно: %appdata%</p>
+                    <p class="client-subtitle">3. В открывшейся папке перейдите по адресу: AppData/Local/Programs/Tanki
+                        Online/resources/</p>
+                    <p class="client-subtitle">4. В данную папку переместите файл app.asar из скачанного архива (заменив
+                        имеющийся у вас файл)</p>
+                    <p class="client-subtitle">5. Наслаждайтесь новым дизайном в клиенте!</p>
+                </div>
+                <img class="gif" src="img/client.gif" alt="gif">
+            </div>
+        </div>
+        <span class="warning">
+            <p style="font-size: 20px">Внимание <i class="fas fa-exclamation-triangle" style="margin-right: 10px"></i></p><br>
+            <p>1. Расширение работает в браузерах на базе Chromium</p><br>
+            <p>2. Если вы планируете вернуть стандартную тему (не переустанавливая клиент) - переименуйте исходный файл app.asar (например, в app1.asar) и возвращайтесь к нему при необходимости</p>
+        </span>
+    </div>
+</div>
+
+<!-- Футер -->
+<footer class="footer">
+    <h1 class="dev"><i class="fas fa-code" style="margin-right: 10px"></i>Создатели: UgIy & Success</h1>
+</footer>
+</body>
+</html>
